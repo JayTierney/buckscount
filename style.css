@@ -10,17 +10,38 @@
 /* your code */
 
 body{
-  background-color: forestgreen;
+  background-color: rgb(10, 78, 10);
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 nav{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  
 }
 
 label{
   background-color: gray;
   display: flex;
   justify-content: space-around;
+  border: solid 5px black;
+}
+
+section .city-item {
+  margin: 5px;
+  background-color: rgb(29, 200, 29);
+  border: solid 2px white;
+  display: flex;
+  justify-content: end;
+}
+
+section {
+  margin-top: 10px;
+  border: solid 2px white;
+}
+
+h1 {
+  color: white
 }
