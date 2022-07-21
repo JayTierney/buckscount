@@ -9,10 +9,8 @@
 
 /* your code */
 
-kefvnjrkvjkrtn fr
-
-nav {
-  background-color: green;
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
-ijijijij
